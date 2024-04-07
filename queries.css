@@ -1,0 +1,68 @@
+/* General settings */
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 2rem;
+    gap: 5rem;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Header */
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 2rem;
+    gap: 2rem;
+  }
+}
+
+/* Home section */
+@media screen and (max-width: 768px) {
+  .section-home {
+    padding: 10rem 5rem;
+  }
+}
+
+/* About section */
+@media screen and (max-width: 768px) {
+  .about-container {
+    padding: 5rem;
+  }
+}
+
+/* Resume section */
+@media screen and (max-width: 768px) {
+  .section-resume {
+    padding-top: 5rem;
+  }
+}
+
+/* Skills section */
+@media screen and (max-width: 768px) {
+  .skill-grid {
+    padding: 0 5rem;
+  }
+}
+
+/* Projects section */
+@media screen and (max-width: 768px) {
+  .projects-flex {
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+}
+
+/* Contact section */
+@media screen and (max-width: 768px) {
+  .icons {
+    padding: 2rem;
+  }
+}
+
+/* Footer */
+@media screen and (max-width: 768px) {
+  .footer-text {
+    font-size: 1.6rem;
+  }
+}
