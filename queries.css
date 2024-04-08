@@ -1,68 +1,217 @@
-/* General settings */
-@media screen and (max-width: 768px) {
-  .nav {
-    padding: 2rem;
-    gap: 5rem;
-    height: auto;
-    flex-direction: column;
-    align-items: flex-start;
+@media (max-width: 76.5em) {
+  /* General */
+  .setion {
+    padding: 10rem;
   }
+  .nav {
+    gap: 5rem;
+  }
+  /* section-home */
+  .section-home {
+    padding: 7rem;
+  }
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .container {
+    gap: 1rem;
+  }
+  .me {
+    max-width: 28rem;
+  }
+  /* section-prject */
+  .section-projects {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .project-img-box {
+  }
+  .projects-flex {
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .project-text {
+    max-width: 25rem;
+  }
+  /* section-skill */
+  .skill-grid {
+    column-gap: 5rem;
+  }
+
+  /* sectoon-resume */
+  .section-resume {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+  /* .section-about {
+    padding-top: 0rem;
+  } */
 }
 
-/* Header */
-@media screen and (max-width: 768px) {
+@media (max-width: 58.6em) {
+  /* general */
+  .img-logo {
+    max-width: 10rem;
+  }
   .nav {
-    padding: 2rem;
     gap: 2rem;
   }
-}
-
-/* Home section */
-@media screen and (max-width: 768px) {
+  .links {
+    gap: 3rem;
+  }
+  .header {
+    font-size: 2rem;
+  }
+  /* section-home */
   .section-home {
-    padding: 10rem 5rem;
+    padding-top: 4rem;
+  }
+  .heading-primary {
+    font-size: 2.5rem;
+  }
+  /* section-about */
+  .greet.second {
+    max-width: 20rem;
+  }
+  .section-about {
+    /* padding-top: ; */
+    padding: 10rem;
+  }
+  .about-description {
+    font-size: 1.6rem;
+  }
+  /* section-skills */
+  .section-skills {
+    padding: 6rem;
+  }
+  /* section-projects */
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-flex {
+    margin: 0;
+  }
+  /* section-contact */
+  .secondary-heading.contact {
+    font-size: 4rem;
+    padding-bottom: 5rem;
+  }
+  .icon-svg {
+    width: 2rem;
+    height: 2rem;
   }
 }
-
-/* About section */
-@media screen and (max-width: 768px) {
-  .about-container {
+@media (max-width: 48.2em) {
+  /* generals */
+  html {
+    font-size: 50%;
+  }
+  .nav {
+    gap: 1rem;
+  }
+  .links {
+    gap: 1rem;
+    display: none;
+  }
+  /* .section {
+    width: 100%;
+  } */
+  /* section-home */
+  .section-home {
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+  }
+  .home-text-box {
+    padding-top: 4rem;
+  }
+  .home-btns {
+    gap: 1rem;
+  }
+  .me {
+    max-width: 20rem;
+  }
+  /* section-about */
+  .section-about {
     padding: 5rem;
   }
-}
-
-/* Resume section */
-@media screen and (max-width: 768px) {
+  .greet.second {
+    max-width: 15rem;
+  }
+  .secondary-heading {
+    font-size: 3rem;
+  }
+  /* section-resume */
   .section-resume {
-    padding-top: 5rem;
+    padding: 5rem;
   }
-}
-
-/* Skills section */
-@media screen and (max-width: 768px) {
-  .skill-grid {
-    padding: 0 5rem;
+  .resume-grid {
+    grid-template-columns: 1fr;
   }
-}
-
-/* Projects section */
-@media screen and (max-width: 768px) {
-  .projects-flex {
-    max-width: 100%;
-    padding: 0 2rem;
+  .quaternary-heading {
+    font-size: 2.2rem;
   }
-}
-
-/* Contact section */
-@media screen and (max-width: 768px) {
+  /* section-skills */
+  .section-skills {
+    padding: 5rem 0rem;
+  }
+  /* projects */
+  .section-projects {
+    padding: 5rem 0;
+    padding-left: 3rem;
+  }
+  .project-card {
+    gap: 0rem;
+  }
+  .project-img {
+    padding: 1rem;
+    max-width: 14rem;
+  }
+  .project-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* section-contact */
+  .section-contact {
+    padding: 5rem 1rem;
+  }
+  .secondary-heading.contact {
+    font-size: 3rem;
+  }
   .icons {
-    padding: 2rem;
+    gap: 3rem;
+  }
+  .icon-svg {
+    width: 3rem;
+    height: 3rem;
+  }
+  .footer-text {
+    font-size: 1.4rem;
+  }
+  /* section-modal */
+  .center {
+    width: 15rem;
+    height: 15rem;
+  }
+  .center-img {
+    width: 15rem;
   }
 }
-
-/* Footer */
-@media screen and (max-width: 768px) {
-  .footer-text {
-    font-size: 1.6rem;
+@media (max-width: 34em) {
+  .Hire-me {
+    padding-right: 4rem;
+  }
+  .modal-container {
+    width: 100%;
+  }
+  .form {
+    padding-left: 5rem;
+  }
+  .input {
+    width: 90%;
   }
 }

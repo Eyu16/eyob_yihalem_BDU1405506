@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Nova+Round&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="logo_trial.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -59,7 +60,7 @@
           </div>
           <div class="home-img-box">
             <figure>
-              <img class="me" src="logos/me2.png" alt="Eyob's Image" />
+              <img class="me" src="img/me2.png" alt="Eyob's Image" />
             </figure>
           </div>
         </div>
@@ -74,7 +75,7 @@
             <figure class="img-border">
               <img
                 class="greet second"
-                src="logos/handshake.png"
+                src="img/handshake.png"
                 alt="Eyob's another Image"
               />
             </figure>
@@ -103,7 +104,7 @@
           </div>
           <div class="resume-grid">
             <div class="card">
-              <h4 class="quaternary-heading">Html, css and Js developer</h4>
+              <h4 class="quaternary-heading">Html, css and Js</h4>
               <p class="card-description">
                 Worked on different projects using Html, Css and Js. This
                 enables me to be more familiary with the basic web concepts.
@@ -239,7 +240,7 @@
                 <a href="https://github.com/Eyu16/weather-app" target="_blank"
                   ><img
                     class="project-img"
-                    src="logos/cloudy.png"
+                    src="img/cloudy.png"
                     alt="weather-img"
                 /></a>
               </figure>
@@ -263,10 +264,7 @@
 
               <figure class="project-img-box">
                 <a href="https://github.com/Eyu16/Alarm" target="_blank"
-                  ><img
-                    class="project-img"
-                    src="logos/clock.png"
-                    alt="alarm-img"
+                  ><img class="project-img" src="img/clock.png" alt="alarm-img"
                 /></a>
               </figure>
             </div>
@@ -275,7 +273,7 @@
                 <a
                   href="https://eyobyihalemtodolist.netlify.app/"
                   target="_blank"
-                  ><img class="project-img" src="logos/list.png" alt="list-img"
+                  ><img class="project-img" src="img/list.png" alt="list-img"
                 /></a>
               </figure>
               <div class="project-text">
@@ -297,7 +295,7 @@
               </div>
               <figure class="project-img-box">
                 <a href="https://github.com/Eyu16/Mapty" target="_blank"
-                  ><img class="project-img" src="logos/map.png" alt="map-img"
+                  ><img class="project-img" src="img/map.png" alt="map-img"
                 /></a>
               </figure>
             </div>
@@ -376,11 +374,56 @@
         </div>
       </section>
     </main>
-    <footer class="footer section">
+    <footer class="footer">
       <div class="footer-text">
         <p>&copy; 2024, All rights reserved. Made with Eyob Yihalem</p>
       </div>
     </footer>
+    <div class="over-lay"></div>
+    <div class="modal modal-hidden">
+      <div class="modal-container">
+        <div class="left">
+          <h3 class="Hire-me">
+            <div>H</div>
+            <div>I</div>
+            <div>R</div>
+            <div>E</div>
+            <div>M</div>
+            <div>E</div>
+          </h3>
+        </div>
+        <div class="right">
+          <form class="form">
+            <lable class="label"> Company Name </lable>
+            <input
+              required
+              class="input"
+              type="text"
+              placeholder="Company Name"
+            />
+            <lable class="label">User Email</lable>
+            <input
+              required
+              class="input"
+              type="email"
+              placeholder="example.@gmail.com"
+            />
+            <lable class="label">Message</lable>
+            <textarea
+              required
+              class="input text-area"
+              placeholder="Enter Your Message Here"
+            ></textarea>
+            <div class="btn-div">
+              <button class="btn btn-submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        <figure class="center">
+          <img src="logos/png/logo3.png" class="center-img" />
+        </figure>
+      </div>
+    </div>
   </body>
 </html>
 
