@@ -31,9 +31,8 @@ const sectionObserver = new IntersectionObserver(sectionReveal, {
 
 allSection.forEach(function (section) {
   sectionObserver.observe(section);
-  console.log(window.innerHeight);
   section.classList.add("section-hidden");
-  if (window.innerWidth <= 770 && section == sectionAbout)
+  if (window.innerWidth <= 770 && section === sectionAbout)
     section.classList.remove("section-hidden");
 });
 
