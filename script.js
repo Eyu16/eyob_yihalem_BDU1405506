@@ -1,11 +1,11 @@
 "use strict";
-// document.querySelector(".nav").addEventListener("click", function (event) {
-//   event.preventDefault();
-//   if (event.target.closest("li")?.classList.contains("link")) {
-//     const id = event.target.getAttribute("href");
-//     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
-//   }
-// });
+document.querySelector(".nav").addEventListener("click", function (event) {
+  event.preventDefault();
+  if (event.target.closest("li")?.classList.contains("link")) {
+    const id = event.target.getAttribute("href");
+    document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+  }
+});
 const allSection = document.querySelectorAll(".section");
 const sectionAbout = document.querySelector(".section-about");
 const allLinks = document.querySelectorAll(".link");
@@ -31,8 +31,10 @@ const sectionObserver = new IntersectionObserver(sectionReveal, {
 
 allSection.forEach(function (section) {
   sectionObserver.observe(section);
-  if (window.innerHeight >= 544 && section != sectionAbout)
-    section.classList.add("section-hidden");
+  console.log(window.innerHeight);
+  section.classList.add("section-hidden");
+  if (window.innerWidth <= 770 && section == sectionAbout)
+    section.classList.remove("section-hidden");
 });
 
 const btnProjects = document.querySelector(".btn-project");
